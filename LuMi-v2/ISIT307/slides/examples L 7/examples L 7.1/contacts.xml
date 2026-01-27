@@ -1,0 +1,25 @@
+<?xml version='1.0' ?>
+<contacts>
+    <contact idx="37">
+        <name>Tom White</name>
+        <category>Family</category>
+        <phone type="home">301-555-1212</phone>
+        <meta id="x634724" />
+    </contact>
+    <contact idx="42">
+        <name>Rita Brown</name>
+        <category>Friends</category>
+        <phone type="home">240-555-1212</phone>
+        <phone type="work">410-555-7676</phone>
+        <email>ritab@example.com</email>
+        <meta id="y49302" />
+    </contact>
+    <contact idx="56">
+        <name>Rick Jones</name>
+        <category>Friends</category>
+        <phone type="home">244-123-6765</phone>
+        <phone type="cell">345-453-7890</phone>
+        <email>rj@example.com</email>
+        <meta id="z34567" />
+    </contact>
+</contacts>
