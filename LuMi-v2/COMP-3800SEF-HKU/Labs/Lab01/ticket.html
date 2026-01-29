@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Open Park Ticket Booking</title>
+</head>
+<body>
+  <h1>Open Park Ticket Booking</h1>
+  <p>Experience a wonderful day in <a href="http://ophk.com.hk">Open Park</a>!</p>
+  <p>Tickets are valid for one visit during a 6-month validity period from the purchase date.
+  Please complete all required fields marked with a *.</p>
+
+  <form action="purchase" method="post">
+  <fieldset>
+    <legend>Booking Details</legend>
+    <table>
+      <tr>
+        <th>Ticket Type</th>
+        <th>Price</th>
+        <th>Quantity</th>
+      </tr>
+      <tr>
+        <td><label for="adult">Adult</label></td>
+        <td>$200</td>
+        <td><input name="adult" id="adult" type="number" value="0" /></td>
+      </tr>
+    </table>
+  </fieldset>
+  <fieldset>
+    <legend>Customer Details</legend>
+    <ol>
+      <li>
+        <label for="fname">First name *:</label>
+        <input name="fname" id="fname" type="text" />
+      </li>
+      <li>
+        <label for="address">Address:</label>
+        <input name="address" id="address" type="text" />
+      </li>
+    </ol>
+  </fieldset>
+  <fieldset class="submit">
+    <input type="submit" value="Confirm" />
+    <input type="reset" value="Reset" />
+  </fieldset>
+  </form>
+</body>
+</html>
