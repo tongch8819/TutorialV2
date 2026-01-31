@@ -1,43 +1,42 @@
-# Answer Key: Database Systems Pre-Course Diagnostic Test
+# Answer Key: Database Systems Entry-Level Diagnostic Assessment
 
-### 1. Data vs. Information
-* **Answer**: Data is a raw, unorganized collection of facts or symbols (e.g., a list of numbers: 85, 90, 72). Information is data that has been processed, organized, or structured to provide context and meaning (e.g., the average test score for the class is 82.3).
+### Part A: Core Data Concepts (60%)
 
-### 2. Relationships
-* **Answer**: A relationship represents an association between entities. In the student/course scenario, the relationship is "Enrolls." A student enrolls in a course, and a course has students enrolled in it.
+1. **Transforming Data to Information**
+   * **Answer**: Data is transformed into information by applying context, organization, and analysis. For a business, raw numbers (data) become information when they are aggregated to show trends, such as "Monthly Sales Growth."
 
-### 3. Subsets Calculation
-* **Answer**: For a set with $n$ elements, the number of possible subsets is $2^n$. 
-* **Process**: Since $n=5$, $2^5 = 32$. This includes the empty set and the set itself.
+2. **Importance of Unique Identifiers**
+   * **Answer**: A unique identifier ensures that each record is distinct. In a university, it prevents confusion between two students with the same name, ensuring grades and fees are assigned to the correct individual.
 
-### 4. Unique Identifiers
-* **Answer**: A unique identifier is a specific value used to distinguish one record from every other record in a system. 
-* **Example**: A National ID number, a Passport number, or a University Student ID (e.g., your NTU/NUS Matriculation number).
+3. **Data Redundancy Problems**
+   * **Answer**: Redundancy leads to wasted storage and data inconsistency. If a phone number is stored in five places and only one is updated, the system will contain conflicting information (Data Inconsistency).
 
-### 5. Linear Search Comparison
-* **Answer**: 1000. In an unsorted list, the item you are looking for could be at the very last position, or not in the list at all, requiring you to check every single record.
+4. **Category Combinations (Subsets)**
+   * **Answer**: For a set of 4 categories, there are $2^4 = 16$ possible subsets. This represents every possible combination of those categories, including the empty set and the full set.
 
-### 6. Data Redundancy
-* **Answer**: This refers to the unnecessary duplication of data within a system (e.g., storing a customer's address in ten different files). 
-* **Problem**: It wastes storage space and, more importantly, leads to "Data Inconsistency" where one copy of the data is updated but others are not.
+5. **Concept of a Relationship**
+   * **Answer**: A relationship is a logical link between entities. The link between "Author" and "Book" is "Writes"—an author writes a book, and a book is written by an author.
 
-### 7. Set Intersection
-* **Answer**: $\{3\}$. The intersection includes only the elements that are present in both Set A and Set B.
+6. **Linear Search Efficiency**
+   * **Answer**: 500 attempts. In the worst-case scenario (the name is last or missing), the computer must check every single record in an unsorted list.
 
-### 8. Structured vs. Unstructured Data
-* **Answer**: Structured data is highly organized and fits into a predefined schema or table format (rows and columns). Unstructured data does not have a pre-defined model (e.g., emails, videos, or PDFs) and is harder to search/query mathematically.
+7. **Set Intersection**
+   * **Answer**: The intersection is $\{30\}$. In data terms, this represents the specific IDs or records that are common to both groups A and B.
 
-### 9. Handling Related Records
-* **Answer**: This is the concept of "Referential Integrity." If a student is deleted, the system should either prevent the deletion if grades exist, or perform a "Cascade Delete" to remove all related grades to prevent "orphaned" records.
+### Part B: Course-Wide Foundational Knowledge (40%)
 
-### 10. Concurrency Scenario
-* **Answer**: Scenario: Two people try to book the last seat on a flight at the exact same millisecond. 
-* **Problem**: Without proper control, both might be told the seat is available, resulting in an overbooked flight (the "Lost Update" problem).
+8. **Structured vs. Unstructured Data**
+   * **Answer**: Structured data (tables) follows a strict format; unstructured data (photos) does not. Structured data is much easier for a database to manage because it can be queried using mathematical logic (SQL).
 
-### 11. Purpose of Sorting
-* **Answer**: Sorting organizes data into a predictable order (alphabetical or numerical). 
-* **Benefit**: For computers, it allows for much faster retrieval (e.g., using Binary Search instead of Linear Search). For humans, it makes data readable and scannable.
+9. **Maintaining Data Integrity**
+   * **Answer**: To maintain integrity, the system should either prevent the deletion of the student record while grades exist or use a "cascade" effect to archive or remove related grades so no "orphaned" data remains.
 
-### 12. Filtering Concept
-* **Answer**: Filtering is the process of extracting only the records that meet a specific criterion.
-* **Example**: From an employee list, "Filter all employees where salary > $5000." The result excludes everyone earning less than that amount.
+10. **Concurrency Errors**
+   * **Answer**: This is a "Race Condition" or "Concurrency Conflict." Both agents might see the room as available, leading to a "Double Booking" if the system doesn't lock the record during the update.
+
+11. **Database Indexing**
+   * **Answer**: An index is a pointer system that allows the database to find data without searching every row. Just like a textbook index tells you exactly which page a word is on, a database index points directly to the data's location.
+
+12. **Filtering Data**
+   * **Answer**: Filtering is the process of hiding records that do not meet specific criteria. 
+   * **Example**: A manager applies a filter "Years_Worked > 5" to the employee list; the system then suppresses all records where the value is 5 or less.
