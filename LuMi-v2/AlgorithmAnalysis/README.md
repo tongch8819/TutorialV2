@@ -1,3 +1,7 @@
+solution reference: https://chatgpt.com/c/6980817d-f5b8-8399-b25c-99da3f4fdf7a
+
+
+
 Pretalk课后反馈模版:
 xx同学，很高兴能和你一起开始本学期[课号]的课程学习，希望通过我们的学习能让你收获满意的成绩!根据我们 pretalk的沟通，我整理了一下首课的内容，麻烦看一下是否有需要补充的:
 [Pretalk平台]:Zoom
@@ -49,3 +53,5 @@ xx同学，很高兴能和你一起开始本学期[课号]的课程学习，希�
 6.若学生想辅导的内容超出1h范围，辛苦您提前跟我说一下嗷，咱们首课是最好只安排1h哒~
 
 Assessment Task: Kindly provide me with the assessment questions at least 6 hours before the first class for record-keeping purposes. The questions should consist of 60% content covered in class and 40% foundational knowledge points from the course that were not explicitly taught during class. The focus should be on process-oriented questions, with a total of 10–12 questions assigned.
+
+
