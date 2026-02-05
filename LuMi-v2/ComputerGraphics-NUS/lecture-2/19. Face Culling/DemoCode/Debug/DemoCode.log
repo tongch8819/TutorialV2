@@ -1,0 +1,6 @@
+﻿  faceCulling.cpp
+E:\Projects\TutorialV2\LuMi-v2\ComputerGraphics-NUS\lecture-2\19. Face Culling\DemoCode\faceCulling.cpp(280,29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  ShaderProgram.cpp
+  SimpleModel.cpp
+  Generating Code...
+  DemoCode.vcxproj -> E:\Projects\TutorialV2\LuMi-v2\ComputerGraphics-NUS\lecture-2\19. Face Culling\Debug\DemoCode.exe
