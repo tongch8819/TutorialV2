@@ -1,0 +1,43 @@
+﻿  textureParameters.cpp
+D:\Projects\TutorialV2\LuMi-v2\ComputerGraphics-NUS\lecture-2\hw2-v1\DemoCode\textureParameters.cpp(476,35): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\Projects\TutorialV2\LuMi-v2\ComputerGraphics-NUS\lecture-2\hw2-v1\DemoCode\textureParameters.cpp(476,29): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\Projects\TutorialV2\LuMi-v2\ComputerGraphics-NUS\lecture-2\hw2-v1\DemoCode\textureParameters.cpp(480,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Projects\TutorialV2\LuMi-v2\ComputerGraphics-NUS\lecture-2\hw2-v1\DemoCode\textureParameters.cpp(481,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Projects\TutorialV2\LuMi-v2\ComputerGraphics-NUS\lecture-2\hw2-v1\DemoCode\textureParameters.cpp(485,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Projects\TutorialV2\LuMi-v2\ComputerGraphics-NUS\lecture-2\hw2-v1\DemoCode\textureParameters.cpp(486,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Projects\TutorialV2\LuMi-v2\ComputerGraphics-NUS\lecture-2\hw2-v1\DemoCode\textureParameters.cpp(487,13): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Projects\TutorialV2\LuMi-v2\ComputerGraphics-NUS\lecture-2\hw2-v1\DemoCode\textureParameters.cpp(488,13): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Projects\TutorialV2\LuMi-v2\ComputerGraphics-NUS\lecture-2\hw2-v1\DemoCode\textureParameters.cpp(505,31): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\Projects\TutorialV2\LuMi-v2\ComputerGraphics-NUS\lecture-2\hw2-v1\DemoCode\textureParameters.cpp(756,28): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+textureParameters.obj : error LNK2019: unresolved external symbol _SOIL_load_image referenced in function "unsigned int __cdecl loadCubemap(class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > >)" (?loadCubemap@@YAIV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@@Z)
+textureParameters.obj : error LNK2019: unresolved external symbol _SOIL_free_image_data referenced in function "unsigned int __cdecl loadCubemap(class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > >)" (?loadCubemap@@YAIV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@@Z)
+textureParameters.obj : error LNK2001: unresolved external symbol ___glewActiveTexture
+textureParameters.obj : error LNK2001: unresolved external symbol ___glewBindBuffer
+textureParameters.obj : error LNK2001: unresolved external symbol ___glewBufferData
+textureParameters.obj : error LNK2001: unresolved external symbol ___glewDeleteBuffers
+textureParameters.obj : error LNK2001: unresolved external symbol ___glewGenBuffers
+textureParameters.obj : error LNK2001: unresolved external symbol ___glewAttachShader
+textureParameters.obj : error LNK2001: unresolved external symbol ___glewCompileShader
+textureParameters.obj : error LNK2001: unresolved external symbol ___glewCreateProgram
+textureParameters.obj : error LNK2001: unresolved external symbol ___glewCreateShader
+textureParameters.obj : error LNK2001: unresolved external symbol ___glewDeleteShader
+textureParameters.obj : error LNK2001: unresolved external symbol ___glewEnableVertexAttribArray
+textureParameters.obj : error LNK2001: unresolved external symbol ___glewGetProgramInfoLog
+textureParameters.obj : error LNK2001: unresolved external symbol ___glewGetProgramiv
+textureParameters.obj : error LNK2001: unresolved external symbol ___glewGetShaderInfoLog
+textureParameters.obj : error LNK2001: unresolved external symbol ___glewGetShaderiv
+textureParameters.obj : error LNK2001: unresolved external symbol ___glewGetUniformLocation
+textureParameters.obj : error LNK2001: unresolved external symbol ___glewLinkProgram
+textureParameters.obj : error LNK2001: unresolved external symbol ___glewShaderSource
+textureParameters.obj : error LNK2001: unresolved external symbol ___glewUniform1f
+textureParameters.obj : error LNK2001: unresolved external symbol ___glewUniform1i
+textureParameters.obj : error LNK2001: unresolved external symbol ___glewUniform3f
+textureParameters.obj : error LNK2001: unresolved external symbol ___glewUniformMatrix4fv
+textureParameters.obj : error LNK2001: unresolved external symbol ___glewUseProgram
+textureParameters.obj : error LNK2001: unresolved external symbol ___glewVertexAttribPointer
+textureParameters.obj : error LNK2001: unresolved external symbol ___glewGenerateMipmap
+textureParameters.obj : error LNK2001: unresolved external symbol ___glewBindVertexArray
+textureParameters.obj : error LNK2001: unresolved external symbol ___glewDeleteVertexArrays
+textureParameters.obj : error LNK2001: unresolved external symbol ___glewGenVertexArrays
+textureParameters.obj : error LNK2001: unresolved external symbol _glewExperimental
+D:\Projects\TutorialV2\LuMi-v2\ComputerGraphics-NUS\lecture-2\hw2-v1\Debug\DemoCode.exe : fatal error LNK1120: 31 unresolved externals
